@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', Courier, monospace;
+    font-family: 'Merriweather', Courier, monospace;
 }
 
 [x-cloak] { display: none; }
@@ -58,7 +58,7 @@ section {
 }
 
 section > div{
-    @apply max-w-6xl mx-auto px-8;
+    @apply mx-auto px-8 md:px-12;
 }
 
 .thumb {
@@ -82,3 +82,13 @@ section > div{
     @apply text-lighter;
 }
 
+ul > li.bullets:before {
+    content: "• ";
+    font-size: x-large;
+    color: #5568aa;
+}
+
+ul > li.no-bullet:before {
+    content: "";
+    color: #5568aa;
+}

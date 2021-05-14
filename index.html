@@ -5,12 +5,268 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Home Page</title>
+	<link
+		href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic"
+		rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet" />
 </head>
 
 <body>
-
+	<header class="bg-gradient-to-r from-[#252d4a] to-[#5b6276] text-gray-200">
+		<div class="flex flex-wrap mx-auto justify-center items-center py-8">
+			<h1 class="w-full text-center text-blue-100 text-4xl pb-4">TOR<span class='text-green-500'>Q</span>UE</h1>
+			<div class="menu px-4">
+				<ul class="flex flex-wrap text-lg">
+					<li class="px-2"><a class="text-gray-300" href="/">Development</a></li>
+					<li class="px-2"><a class="text-gray-300" href="/">Tools</a></li>
+					<li class="px-2"><a class="text-gray-300" href="/">Community</a></li>
+					<li class="px-2"><a class="text-gray-300" href="/">Videos</a></li>
+					<li class="px-2"><a class="text-gray-300" href="/">Ebooks</a></li>
+				</ul>
+			</div>
+			<div class="rounded-full border-gray-200 w-64 flex border-2 items-center px-2 text-gray-100">
+				<input type="text" placeholder="Search" class="text-gray-100 flex-grow bg-transparent w-32 rounded-full">
+				<i class="material-icons">search</i>
+			</div>
+		</div>
+	</header>
+	<section class="bg-[#1a1f33] py-16">
+		<div>
+			<h3 class="text-gray-200 mb-6">Recent Articles</h3>
+			<div class="flex w-full mb-4">
+				<img src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300"
+					class="rounded-full border-2 w-16 mr-4">
+				<div class="flex flex-col pr-12 text-gray-400 justify-center">
+					<span class="text-xs">Author</span>
+					<span class='text-gray-100'>Suman Shrestha</span>
+				</div>
+				<div class="hidden md:flex flex-col pr-12 text-gray-400 justify-center">
+					<span class="text-xs">Filed Under</span>
+					<span class='text-gray-100'>Community</span>
+				</div>
+				<div class="hidden md:flex flex-col pr-12 text-gray-400 justify-center">
+					<span class="text-xs">Published</span>
+					<span class='text-gray-100'>May 13, 2021</span>
+				</div>
+				<div class="hidden md:flex flex-col pr-12 text-gray-400 justify-center">
+					<span class="text-xs">No comments</span>
+					<span class='text-gray-100'>Start the conversation</span>
+				</div>
+			</div>
+			<div class="mb-16">
+				<h2 class="text-gray-100 max-w-4xl mb-4">Press This Podcast: April 2021 Word Around the Campfire</h2>
+				<p class="text-gray-300 text-xl leading-loose max-w-4xl mb-4">Welcome to Press This, the WordPress
+					community podcast from WMR. Here host David Vogelpohl sits down with guests from around the
+					community to talk about the biggest issues facing WordPress developers. The following is a
+					transcription of the original recording. David Vogelpohl: Hello everyone and welcome to Press This
+					the WordPress community podcasts on WMR.…</p>
+				<a href="/" class="border-b text-gray-200 text-xl border-b-2 border-pink-400">Read the article</a>
+			</div>
+			<div>
+				<h4 class="text-gray-200 mb-6 font-bold text-2xl">Articles from the last two weeks</h4>
+				<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+					<div class="flex">
+						<img class="rounded-full w-16 h-16 border-2"
+							src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300">
+						<div class="pl-6">
+							<h5 class='text-xl text-gray-200 leading-normal mb-2'>First Look: The Future Of WordPress
+								Widgets</h5>
+							<span class="text-gray-400">Bud Kraus</span>
+						</div>
+					</div>
+					<div class="flex">
+						<img class="rounded-full w-16 h-16 border-2"
+							src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300">
+						<div class="pl-6">
+							<h5 class='text-xl text-gray-200 leading-normal mb-2'>Torque’s Social Hour: Francesca Marano
+								and Taco Verdo from Yoast</h5>
+							<span class="text-gray-400">Doc Pop</span>
+						</div>
+					</div>
+					<div class="flex">
+						<img class="rounded-full w-16 h-16 border-2"
+							src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300">
+						<div class="pl-6">
+							<h5 class='text-xl text-gray-200 leading-normal mb-2'>Is Managed WordPress Hosting Worth It?
+								10 Factors to Consider</h5>
+							<span class="text-gray-400">Nick Schäferhoff</span>
+						</div>
+					</div>
+					<div class="flex">
+						<img class="rounded-full w-16 h-16 border-2"
+							src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300">
+						<div class="pl-6">
+							<h5 class='text-xl text-gray-200 leading-normal mb-2'>3 Reasons to Build Dedicated Landing
+								Pages for Your Website</h5>
+							<span class="text-gray-400">Will Morris</span>
+						</div>
+					</div>
+					<div class="flex">
+						<img class="rounded-full w-16 h-16 border-2"
+							src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300">
+						<div class="pl-6">
+							<h5 class='text-xl text-gray-200 leading-normal mb-2'>Do You Need to Offer Health Insurance
+								for Your Blogging Staff? It Depends</h5>
+							<span class="text-gray-400">Devin Partida</span>
+						</div>
+					</div>
+					<div class="flex">
+						<img class="rounded-full w-16 h-16 border-2"
+							src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300">
+						<div class="pl-6">
+							<h5 class='text-xl text-gray-200 leading-normal mb-2'>Press This Podcast: Traffic Building
+								From Zero For Brand New Websites</h5>
+							<span class="text-gray-400">Emily Schiola</span>
+						</div>
+					</div>
+				</div>
+				<div class="flex justify-center pt-16">
+					<button class="border-2 text-gray-200 mx-auto px-4 py-2 rounded-full border-gray-200">More recent
+						articles</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-gradient-to-r from-purple-900 via-pink-500 to-red-200 py-2"></section>
+	<section class="py-16">
+		<div class="mb-8">
+			<h4 class="pb-8 text-gray-800 text-3xl font-bold">Featured Article</h4>
+			<div class="grid xl:grid-cols-4 gap-4">
+				<div
+					class="rounded-xl col-span-2 row-span-2 flex flex-col bg-gradient-to-tr from-[#1a1f33] text-gray-200 p-16 to-[#aa278c]">
+					<span class="text-xs">Filed Under</span>
+					<span class="mb-8">Community</span>
+					<h4 class="text-gray-100 mb-8">How to Easily Check and Update the PHP Version of Your WordPress Site
+					</h4>
+					<p class="text-gray-200 leading-loose text-xl mb-4">All websites are running on code. In the old
+						days, it was pure HTML, today it’s usually a mix of that plus CSS and JavaScript. However,
+					</p>
+					<div class="flex-grow flex items-end">
+						<div class="flex">
+							<img src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300"
+								class="w-16 rounded-full border-2" alt="">
+							<div class="pl-4 flex flex-col justify-center">
+								<span class="text-xs">Author</span>
+								<span class="text-white">Nick Schaferhoff</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="rounded-xl col-span-2 row-span-2 md:col-span-1 md:row-span-1 flex flex-col bg-gradient-to-tr from-[#1a1f33] text-gray-200 p-6 to-[#aa278c]">
+					<span class="text-xs">Filed Under</span>
+					<span class="mb-8">Development</span>
+					<h4 class="text-gray-100 leading-tight mb-8">PHP Version of Your WordPress Site
+					</h4>
+					<div class="flex-grow flex items-end">
+						<div class="flex">
+							<img src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300"
+								class="w-16 rounded-full border-2" alt="">
+							<div class="pl-2 flex flex-col justify-center">
+								<span class="text-xs">Author</span>
+								<span class="text-white">Nick Schaferhoff</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="rounded-xl col-span-2 row-span-2 md:col-span-1 md:row-span-1 flex flex-col bg-gradient-to-tr from-[#1a1f33] text-gray-200 p-6 to-[#aa278c]">
+					<span class="text-xs">Filed Under</span>
+					<span class="mb-8">begineers</span>
+					<h4 class="text-gray-100 leading-tight mb-8">Headless WordPress Site
+					</h4>
+					<div class="flex-grow flex items-end">
+						<div class="flex">
+							<img src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300"
+								class="w-16 rounded-full border-2" alt="">
+							<div class="pl-2 flex flex-col justify-center">
+								<span class="text-xs">Author</span>
+								<span class="text-white">Nick Schaferhoff</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="rounded-xl col-span-2 row-span-2 md:col-span-1 md:row-span-1 flex flex-col bg-gradient-to-tr from-[#1a1f33] text-gray-200 p-6 to-[#aa278c]">
+					<span class="text-xs">Filed Under</span>
+					<span class="mb-8">Community</span>
+					<h4 class="text-gray-100 leading-tight mb-8">Custom Shortcodes
+					</h4>
+					<div class="flex-grow flex items-end">
+						<div class="flex">
+							<img src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300"
+								class="w-16 rounded-full border-2" alt="">
+							<div class="pl-2 flex flex-col justify-center">
+								<span class="text-xs">Author</span>
+								<span class="text-white">Nick Schaferhoff</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="rounded-xl col-span-2 row-span-2 md:col-span-1 md:row-span-1 flex flex-col bg-gradient-to-tr from-[#1a1f33] text-gray-200 p-6 to-[#aa278c]">
+					<span class="text-xs">Filed Under</span>
+					<span class="mb-8">Community</span>
+					<h4 class="text-gray-100 leading-tight mb-8">5 challenges of remote working</h4>
+					<div class="flex-grow flex items-end">
+						<div class="flex">
+							<img src="https://en.gravatar.com/userimage/97817525/2d2ddfebf58ad969f2f63100accf1799.jpg?size=300"
+								class="w-16 rounded-full border-2" alt="">
+							<div class="pl-2 flex flex-col justify-center">
+								<span class="text-xs">Author</span>
+								<span class="text-white">Nick Schaferhoff</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-gradient-to-br from-purple-900 via-pink-500 to-red-200 py-16">
+		<div class="flex flex-col">
+			<h4 class="max-w-3xl leading-normal font-bold text-4xl mb-8 text-gray-100 font-bold ">How do you stay on top
+				of your WordPress game?</h4>
+			<p class="text-gray-100 mb-4 max-w-3xl text-xl leading-normal">A good way to start is to sign up for our
+				weekly newsletter. We keep you up to date by bringing you the freshest WordPress content from the
+				brightest minds in the industry.</p>
+			<h4 class="text-gray-100">Email*</h4>
+			<input type="text" class="rounded-full bg-white px-4 mb-4 py-3 max-w-sm">
+			<div>
+				<button
+					class="bg-yellow-400 text-gray-800 text-xl font-bold inline py-3 px-16 rounded-full">Subscribe</button>
+			</div>
+		</div>
+	</section>
+	<section class="py-16 bg-gray-900">
+		<div>
+			<h5 class="text-4xl text-gray-100 font-bold mb-4">Browse Topics</h5>
+			<ul class="max-w-2xl flex text-gray-200 flex-wrap leading-loose text-xl bullets">
+				<li class="pr-2 no-bullet">Agency</li>
+				<li class="pr-2">Archives</li>
+				<li class="pr-2">Beginners</li>
+				<li class="pr-2">Business</li>
+				<li class="pr-2">Community</li>
+				<li class="pr-2 no-bullet">Development</li>
+				<li class="pr-2">E-Books</li>
+				<li class="pr-2">Events</li>
+				<li class="pr-2">Featured</li>
+				<li class="pr-2">News</li>
+				<li class="pr-2">News Drop</li>
+				<li class="pr-2 no-bullet">Plugins</li>
+				<li class="pr-2">Security</li>
+				<li class="pr-2">Themes</li>
+				<li class="pr-2">Tools</li>
+				<li class="pr-2">TorqueToons Videos</li>
+			</ul>
+			<div class="text-gray-100 mt-8 text-xl">
+				&copy; All rights reserved.
+			</div>
+		</div>
+	</section>
 	<div id="fb-root"></div>
 	<script>
+
 		window.fbAsyncInit = function () {
 			FB.init({
 				xfbml: true,
